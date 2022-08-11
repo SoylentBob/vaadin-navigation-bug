@@ -30,6 +30,8 @@ gretty {
 // for more configuraion options please see: https://vaadin.com/docs/latest/guide/start/gradle/#all-options
 vaadin {
     pnpmEnable = false
+    useDeprecatedV14Bootstrapping = true
+
 }
 
 dependencies {
